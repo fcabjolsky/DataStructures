@@ -1,0 +1,4 @@
+To run the docker file: 
+docker build -t "gcc-valgrind:1.0" .
+docker run -it -v $PWD:/tmp -w /tmp gcc-valgrind:1.0
+This will start the docker image in the current directory
