@@ -34,7 +34,7 @@ bool queue_is_empty(const queue_t *queue);
 /**
  * Adds an element in the queue. Return false in case of error
 */
-bool queue_add(queue_t *queue);
+bool queue_add(queue_t *queue, void *data);
 
 /**
  * Retrives, but doesn't remove the head of the queue. Returns NULL if 
