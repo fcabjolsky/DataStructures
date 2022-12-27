@@ -30,7 +30,7 @@ int failure_count() {
 
 void print_header(const char* header) {
 	printf(ANSI_COLOR_LGH_GREEN);
-	printf("Start test: %s", header);
+	printf("Start test: %s\n", header);
 	printf(ANSI_COLOR_RESET);
 	fflush(stdout);
 }
