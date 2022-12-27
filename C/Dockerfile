@@ -1,2 +1,2 @@
 FROM alpine:latest
-RUN apk add g++ valgrind gcc vim
+RUN apk update && apk add g++ valgrind gcc vim make
